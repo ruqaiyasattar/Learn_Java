@@ -1,11 +1,14 @@
+/*
 import com.sun.javafx.iio.ImageStorage;
 import net.glxn.qrgen.image.ImageType;
 
 //import java.io.ByteArrayOutputStream;
 
+*/
 /**
  * Created by abc on 6/20/2016.
- */
+ *//*
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -21,7 +24,8 @@ public class QR_code_Generator {
         fos.write(out.toByteArray());
         fos.flush();
     }
-    /*public static void main(String[] args) {
+    */
+/*public static void main(String[] args) {
         Outer:
         for(int i=0;i<=4;i++){
             Inner:
@@ -32,5 +36,7 @@ public class QR_code_Generator {
             }
             System.out.println(" ");
         }
-    }*/
+    }*//*
+
 }
+*/

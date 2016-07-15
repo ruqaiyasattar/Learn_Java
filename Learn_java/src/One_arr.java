@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Created by abc on 6/19/2016.
  */
@@ -78,11 +80,11 @@ int a[];
             {5,7,8,9}
     };
 */
-   /* Assignment= 01prime number within arr
+    /*Assignment= 01prime number within arr
 
     user input;
     generate,
-    every prime on each indexes;
+    every prime on each indexes;*/
         int i,k ,j;
 
     Scanner s =new Scanner(System.in);
@@ -112,7 +114,6 @@ System.out.println("Enter any number: ");
         }
 
         }
-    */
 
     /*assign 2;
     multi dimension arry ka
@@ -124,11 +125,11 @@ System.out.println("Enter any number: ");
             System.out.println(i);
         }*/
     //2D array
-        int p[][]={
+        /*int p[][]={
             {0,1,2},
             {3,4,5},
             {6,7,8}
-        };
+        };*/
 
     /*    System.out.println(  p[0][0] +"|"+  p[0][1] +"|"+  p[0][2]   );
         System.out.println("------");
@@ -153,7 +154,7 @@ System.out.println("Enter any number: ");
 
     }*/
 
-    }
+
 
         //jagged array or irregular array
      /*   int p[][]={
@@ -212,5 +213,5 @@ System.out.println("Enter any number: ");
         }*/
 
 
-    }
+
 

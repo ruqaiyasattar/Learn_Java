@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Created by abc on 6/12/2016.
  * patterns
@@ -71,19 +73,19 @@ public class pattren {
             }
             System.out.println(" ");
         }*/
-        /*int a,b;                         //    *
+        /*int a,b;                       //    *
         for(a=0;a<5;a++){                //   * *
             for (b=0;b<5-a;b++){         //  * * *
                 System.out.print(" ");   // * * * *
-            }                            /*//* * * * *
+            }                          /*//* * * * *
             for(int z=0;z<=a;z++) {
                 System.out.print(" *");
                 continue;
             }
             System.out.println("");
         }*/
-        int i,j;
-        for(i=1;i<=4;++i){
+      /*  int i,j;
+        for(i=1;i<=9;++i){
             for (j=1;j<=i;++j){          //1
                 System.out.print(j+"");  //12
             }                            //123
@@ -93,4 +95,54 @@ public class pattren {
 
 
         }
+    }*/
+/*        int i, k, j;
+        *//*Scanner s = new Scanner(System.in);
+        int a;
+        System.out.println("Enter the size of array: ");
+        a = s.nextInt();*//*
+        int num[] = new int[10];
+        *//*System.out.println("Enter the range of prime number: ");
+        num[a-1]=s.nextInt();*//*
+        System.out.println("");
+        for (int h = 0; h < num.length; h++) {
+            for (i = 2; i < 8; i++) {
+                k = 0;
+                for (j = 2; j < i; j++) {
+                    if (i % j == 0) {
+                        k = 1;
+                        break;
+                    }
+                }
+                if (k == 0) {
+                System.out.println(i + " ");
+
+                }
+            }
+       }
+    }
+}*/
+        int a,i;
+        System.out.println("Enter the size of array: ");
+        Scanner s = new Scanner(System.in);
+        a = s.nextInt();
+        int num[]=new int[a];
+        boolean fix=true;
+for (i=1;i<num.length;i++){
+for (int j=2;j<i;j++){
+if(i%j==0){
+    fix=false;
+    System.out.println("\t:it's not prime");
+    break;
+}
+    else if(fix=true) {
+
+    for (int k=0;k<num.length;k++){
+        System.out.println("["+k+"]"+"="+i);
+    }
+    }
+
+    }
+}
+}
     }
